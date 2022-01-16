@@ -117,7 +117,7 @@ def get_info(id):
 
 
     if device + ".json" in os.listdir(fileDir + "/" + vanillaDir):
-        return false
+        return False
     else:
         variant = "GApps Only"
 
